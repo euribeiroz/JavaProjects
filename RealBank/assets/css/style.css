@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(71, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e9cecb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: #5e8d93;
+    padding: 1em;
+    border-radius: 10px;
+    width: 15em;
+    height: 25em;
+    box-shadow: 5px 8px 8px #000;
+}
+img[alt=mastercard]{
+    width: 30%;
+}
+img[alt=chip]
+{
+    width: 40%;
+    transform: rotate(90deg);
+}
+.footer p{
+    color:#ffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer img{
+    width: 35%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header{
+    height: 70%;
+}
+.box-img{
+    display: flex;
+    align-items: flex-start;
+}
+.footer{
+    height: 30%;
+}
+.footer p{
+    margin-left: 1em;
+}
+
+  
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+a:hover {
+    opacity: 0.7;
+}
+  
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 8vh;
+}
+  
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+  
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
